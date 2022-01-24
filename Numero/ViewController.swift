@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     super.viewWillAppear(animated)
     game?.reset()
     score = game?.score
-    numberLabel.center.x -= view.bounds.width
+    numberLabel.center.x -= view.bounds.width - 1
     romanNumeralLabel.center.x += view.bounds.width
   }
   
