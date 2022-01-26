@@ -38,7 +38,7 @@ class GameDoneViewController: UIViewController {
     super.viewDidLoad()
     
     if let finalScore = score {
-      scoreLabel.text = "Your final score is: \(finalScore)"
+      scoreLabel.text = "Your final score i: \(finalScore)"
     }
   }
     
